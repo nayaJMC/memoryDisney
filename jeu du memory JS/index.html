@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Jeu du mémory</title>
+</head>
+<body>
+
+    <div id="allconfettis">
+    </div>
+
+
+    <div class="texte-bienvenue">
+        <h1>Memory studi live game</h1>
+        <p>Combien de paires pour jouer ?</p>
+        <div class="game-config">
+            <input id="nbCardInput" type="number" max="6" min="2" value="2">
+            <div class="moreOrLessButton">
+                <button id="moreCards">+</button>
+                <button id="lessCards">-</button>
+            </div>
+        </div>
+        <button id="playButton">Jouer</button>
+    </div>
+
+    <div id="GameBoard">
+    </div>
+        
+    <script src="script.js"></script>
+    </body>
+</html>
